@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website </title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+</head>
+<body>
+    <div class="s1 protfolio-container ">
+
+        <ul class="nevlist">
+            <li><a href="#">Home</a></li>   
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="TcpWebsite.html">Project</a></li>
+        </ul>
+
+
+        
+        <div class="left-container">
+            <!-- <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-codepen"></i>
+
+            </div> -->
+
+          <div class="content">
+                <p class="intro">Hi! I Am <span>Chaudhari Samir</span><p>
+                <h1>Web Developer.</h1>
+                <p class="detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus aspernatur recusandae libero ipsam obcaecati quis facere omnis assumenda fugiat minus!</p>
+
+                <div class="btn-container">
+                    <button>Hire Me</button>
+                    <button>View Project</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-container" style="color: white;"></div>
+        <div class="desing">
+            <div class="circle1"></div>
+            <div class="circle1"></div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="resume" id="resume">
+      <h1 class="  res ">Resume</h1>
+      <header class="contact">
+  
+        <h1>Samir Chaudhari</h1>
+        <p>Email: samirchaudhari800@gmail.com</p>
+        <p>Phone: 9875053392</p>
+        <p>Address:hardesan </p>
+        <p>Dist: Mehsana</p>
+         <p class="mb-4">Pin:384205</p>
+      
+        
+      </header>
+  
+      
+      <section class="section12">
+        <section class="section1">        <h2>Skills</h2> </section>
+
+       
+        
+    
+    
+        <div class="container">
+
+
+          <div class="circle" data-degree="81"
+          data-color="#04fe">
+             <h2 class="number">81 <span>%</span></h2>
+             <h4>Figma</h4>
+         </div>
+ 
+
+
+
+
+
+            <div class="circle" data-degree="86" data-color="#ff2972">
+                <h2 class="number">84 <span>%</span></h2>
+                <h4>HTML</h4>
+                <!-- <h5>Samir</h5> -->
+            </div>
+             
+
+
+            
+    
+            <div class="circle" data-degree="90"
+             data-color="#fee800">
+                <h2 class="number">90 <span>%</span></h2> 
+                <h4>CSS</h4>
+            </div>
+    
+    
+            <div class="circle" data-degree="65"
+             data-color="#04fc43">
+                <h2 class="number">65 <span>%</span></h2>
+                <h4>Java script</h4>
+            </div>
+    
+             
+            <div class="circle" data-degree="87"
+             data-color="#00f0ff">
+                <h2 class="number">87 <span>%</span></h2>
+                <h4>Bootstrap</h4>
+            </div>
+    
+   
+    
+    
+            
+        </div>
+
+
+
+
+
+      </section>
+      <section class="section">
+        <h2>Profile</h2>
+        <p>"Highly motivated recent graduate with a strong foundation in Python programming and a passion for developing web applications. Proficient in  and eager to contribute to innovative projects in a dynamic team environment. Seeking an entry-level Python Developer position to leverage my analytical skills and problem-solving abilities."</p>
+      </section>
+  
+  
+      <section class="section">
+        <h2>Projects</h2>
+        <ul class="list-unstyled">
+          <li><strong>Personal Portfolio Website</strong> Created a  using HTML, CSS to showcase my projects and skills.</li>
+          <li><strong>Design template of TCP india company</strong>Created a responsive portfolio using HTML, CSS, and JavaScript to showcase my projects and skills.  </li>
+          <li><strong>Responsive Landing Page</strong> Designed and coded a marketing landing page with modern layout using CSS Flexbox and media queries.</li>
+        </ul>
+      </section>
+
+
+
+      
+  
+      <section class="section education">
+        <h2>Education</h2>
+        <p><strong>Front-End Development ( Offline Courses)</strong></p>
+        <p>Completed HTML, CSS, and JavaScript courses on platforms the career platform of india .</p><br>
+        <p><strong>Backend Development ( Offline Courses)</strong></p>
+        <p>Completed Python and Django courses on platforms the career platform of india .</p>
+      </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          let circles = document.querySelectorAll('.circle');
+          circles.forEach(function (progress) {
+              let degree = 0;
+              const targetDegree = parseInt(progress.getAttribute('data-degree'));
+              const color = progress.getAttribute('data-color');
+              const number = progress.querySelector('.number');
+      
+              const interval = setInterval(function () {
+                  if (degree >= targetDegree) {
+                      clearInterval(interval);
+                      return;
+                  }
+                  degree += 1;
+                  progress.style.background = `conic-gradient(${color} ${degree}%, #222 0%)`;
+                  number.innerHTML = degree + '<span>%</span>';
+                  number.style.color = color;
+              }, 50); // Adjust speed here
+          });
+      });
+      </script>
+
+
+</body>
+</html>
