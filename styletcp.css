@@ -1,0 +1,389 @@
+
+.header {
+  position: sticky;
+  -position: absolute;
+  top: 0;z-index: 11;
+}
+.header1 {
+  -height: 30px;
+  -width: 100%;
+  padding-block: 5px;
+  background-color: #00161f;
+}
+.header2 {
+  height: 80px;
+  background-image: linear-gradient(rgb(11, 63, 112), rgb(141, 183, 199));
+  width: 100%;
+}
+p {
+  font-size: 15px;
+}
+ul {
+  font-size: 15px;
+}
+#data1 {
+  background: linear-gradient(to right, #01e5fe 58%, #0040ff 100%);
+  padding: 3px;
+
+  font-size: 25px;
+  text-align: center;
+  -display: flex;
+  color: rgb(12, 12, 12);
+  -font-weight: bold;
+  font-family: "Bebas Neue", serif;
+width: 100%;
+  -background-color: orange;
+
+  border: none;
+}
+
+.right {
+  transform: rotate(180deg);
+}
+li {
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+h6 {
+  font-size: 20px;
+}
+
+ul li .nav-link {
+  -color: #ffffff !important;
+  -background-color: red;
+  -text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+  -border-bottom: 4px solid rgb(15, 14, 14);
+}
+ul li .nav-link {
+  color: white;
+}
+.navbar {
+  background-image: linear-gradient(
+    180deg,
+    rgb(186, 207, 214),
+    rgb(46, 150, 199)
+  );
+}
+
+h1 {
+  height: 100vh;
+  color: white;
+}
+
+.banner {
+  background-image: url(image/bright-light-black-background_23-2148132725.avif);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.carousel-inner {
+}
+
+#logo {
+  -background-color: #00161f;
+  background-image: linear-gradient(rgb(6, 38, 70), rgb(0, 179, 250));
+  border: 0;
+  
+}
+.headercenter{
+  background-image: linear-gradient(rgb(6, 38, 70), rgb(0, 179, 250));
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftbox{
+  font-size: 40px;
+}
+#goto{
+  background-image: linear-gradient(rgb(6, 38, 70), rgb(0, 179, 250));
+  border: 0;
+  font-size: 18px;
+  padding: 4px;
+
+}
+#blue{
+  -border: 1px solid red;
+  -width: 200xp;
+}
+.ppt{
+  width: 500px;
+  height: 100px;
+  text-align: justify;
+}
+.pptt{
+  width: 0px;
+  -height: 100px;
+  text-align: justify;
+}
+.fd{
+-border-top: 2px solid red;
+ border: 5px solid;
+  border-image: linear-gradient(to right, red, blue);
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-image-slice: 1;
+  -padding: 15px;
+  
+}
+#about{
+ font-size: 20px;
+font-weight: bold;
+position: absolute;
+color: white;
+-background-color: red;
+
+-border-bottom: 4px solid rgb(8, 0, 255);
+-width: 200px;
+-margin: auto; 
+
+
+
+}
+.about{
+  background-color: white;
+}
+#our{
+font-size: 20px;
+font-weight: bold;
+-position: absolute;
+color: white;
+-border-bottom: 4px solid rgb(8, 0, 255);
+-width: 200px;
+-margin: auto; */
+
+}
+#abt{
+position: absolute;
+right: 110px;
+top: 800px;
+
+}
+.rabout1{
+
+}
+
+
+/* @media(max-width:500px){
+
+#imgimg{
+  width: 150px ;
+}
+.box1{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: auto;
+
+}
+
+
+.banner{
+  height: 100%;
+  width: 500px;
+}
+
+.box2{
+margin-right: 100px;
+}
+img{
+  width: 100px;
+}
+#data1{
+  background: linear-gradient(to right, #01e5fe 58%, #0040ff 100%);
+  padding: 1px;
+  width: 130px;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: rgb(12, 12, 12);
+  -font-weight: bold;
+  font-family: "Bebas Neue", serif;
+
+  -background-color: orange;
+
+  border: none;
+}
+#gd{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+#slider{
+  -display: block;
+  -margin: auto;
+  -margin-right: 100px;
+}
+.main{
+  display: flex;
+-justify-content: space-around;
+-flex-direction: column;
+}
+.box3{
+  margin-left: 400xp;
+}
+} */
+#Discover{
+  background: linear-gradient(to right, #368eb4 58%, #0040ff 100%);
+  border: 0;
+  color: white;
+  
+}
+.about img{
+
+}
+.card{
+  height: 250px;
+}
+.datadata{
+  -background: linear-gradient(to right, #368eb4 58%, #0040ff 100%);
+-background-image: url(image/bright-light-black-background_23-2148132725.avif);
+background-size: 100% 100%;
+height: 400px;
+
+color: rgb(36, 90, 227);
+}
+#ser{
+  position: absolute;
+  font-size: 20px;
+font-weight: bold;
+position: absolute;
+color: white;
+display: flex;
+margin-top: 25px;
+
+
+}
+#imgser{
+  margin-top: 20px;
+}
+.explore{
+  margin-inline:40%;
+  background: linear-gradient(to right, #1892c7 58%, #2c55cd 100%);
+  color: white;
+  border: none;
+}
+#flue{
+  /* background-size: cover;
+  width: 100%;
+  -height: 10%;
+   */
+
+}
+.empower{
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(to right, #1892c7 58%, #8d9cc9 100%);
+  -border-radius: 5%;
+}
+.center{
+  background-image: url(image/l1.png);
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  background-size: cover;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.center1{
+    background-image: url(image/l1.png);
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .center2{
+    background-image: url(image/l1.png);
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .job1{
+
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .job2{
+
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .job3{
+
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .young1{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    -border: 2px solid red;
+    background-image: url(image/shape.jpg);
+    height: 400px;
+    object-fit: cover;
+    
+    }
+    .young1 img{
+      -border: 1px solid red;
+      object-fit: contain;
+    }
+   .carddata .card:hover{
+      
+    z-index: 2;
+      transform: scale(1.2);
+      -transform: rotateY(180deg);
+      
+
+    }
+    .carddata .card{
+      box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+      transition: 0.4s;
+      margin-top: 30px;
+      -border-radius: 0;
+
+
+      }
+    .boxcard{
+      height:25px;
+      width: 25px;
+      border-radius: 50%;
+      background-color: white;
+      margin-left: 120px;
+      margin-top: 10px;
+      padding-left: 8px;
+      font-weight: bold;
+      -border: 0;
+
+
+
+
+
+
+
+
+      
+      
+    }
+    
+  
+  
